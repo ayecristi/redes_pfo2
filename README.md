@@ -2,6 +2,9 @@
 
 API REST en **Flask** con base de datos **SQLite**, contraseñas hasheadas con `werkzeug.security` y un cliente interactivo de consola basado en `requests`.
 
+**Repositorio:** https://github.com/ayecristi/redes_pfo2
+**Página del proyecto (GitHub Pages):** https://ayecristi.github.io/redes_pfo2/
+
 ## Estructura
 
 ```
@@ -10,6 +13,9 @@ redes_pfo2/
 ├── cliente.py           # Cliente de consola
 ├── templates/
 │   └── index.html       # Plantilla de bienvenida
+├── docs/                # Página para GitHub Pages
+│   ├── index.html
+│   └── capturas/
 ├── capturas/            # Capturas de pantalla de las pruebas
 ├── requirements.txt
 ├── database.db          # Se genera automáticamente
@@ -20,7 +26,7 @@ redes_pfo2/
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/<tu-usuario>/redes_pfo2.git
+   git clone https://github.com/ayecristi/redes_pfo2.git
    cd redes_pfo2
    ```
 2. **Crear y activar un entorno virtual** *(opcional, recomendado)*
